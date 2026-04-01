@@ -1,0 +1,28 @@
+body{
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex ;
+    justify-content: center;
+    background-color:rgb(251, 245, 163);
+    text-align: center;
+}
+.container {
+    max-width: 1000px;
+    background-color: white;
+    margin: 60px auto;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #8b5ef6;
+    padding: 20px;
+}
+input, select{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #6f7e08;
+
+}
+input:focus, select:focus {
+outline: none;
+border: 1px solid #f4c542;
+}

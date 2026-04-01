@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+  <h1>Cadastro</h1>
+
+  <form action="#" method="POST">
+
+    <label>Nome:</label><br>
+    <input type="text" name="nome" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Senha:</label><br>
+    <input type="password" name="senha" required minlength="6"><br><br>
+
+    <p>Sexo:</p>
+    <input type="radio" name="sexo" value="feminino"> Feminino
+    <input type="radio" name="sexo" value="masculino"> Masculino<br><br>
+
+    <p>Interesses:</p>
+    <input type="checkbox" name="interesse" value="programacao"> Programação
+    <input type="checkbox" name="interesse" value="design"> Design
+    <input type="checkbox" name="interesse" value="games"> Games<br><br>
+
+    <label>Cidade:</label><br>
+    <select name="cidade">
+      <option>Rio de Janeiro</option>
+      <option>São Paulo</option>
+      <option>Belo Horizonte</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+   </div>
+</body>
+</html>
